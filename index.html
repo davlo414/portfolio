@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+    <!-- Styles -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;" id="mainNav">
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+                <strong>MDB</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
+                aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" data-mdb-ripple-init
+                        href="#knowledge">Knowledge</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" data-mdb-ripple-init
+                        href="#projects">Projects</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav d-flex flex-row">
+                    <!-- Icons -->
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://www.linkedin.com/in/david-london-65590615a"
+                            rel="nofollow" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
+    <!--Main Navigation-->
+    <header>
+        <style>
+            /* Height for devices larger than 576px */
+            @media (min-width: 992px) {
+                #intro {
+                    margin-top: -58.59px;
+                    height: 75vh !important;
+                }
+            }
+
+            .navbar .nav-link {
+                color: #fff !important;
+            }
+        </style>
+
+
+        <!-- Background image -->
+        <div id="intro" class="bg-image vh-100 shadow-1-strong">
+            <video style="min-width: 100%; min-height: 100%;" playsinline autoplay muted loop>
+                <source class="h-100" src="https://mdbootstrap.com/img/video/animation-intro-min.mp4"
+                    type="video/mp4" />
+            </video>
+            <div class="mask" style="
+            background: linear-gradient(
+              45deg,
+              rgba(29, 236, 197, 0.7),
+              rgba(91, 14, 214, 0.7) 100%
+            );
+          ">
+                <div class="container d-flex align-items-center justify-content-center text-center h-100">
+                    <div class="text-white" data-mdb-theme="dark">
+                        <h1 class="mb-3">Coding Portfolio
+                        </h1>
+                        <h5 class="mb-4">A portfolio to show my software knowledge and projects</h5>
+                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init
+                            href="#knowledge">Knowledge</a>
+                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init
+                            href="#projects">Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+        <!--Section: Knowledge-->
+        <section class="container" id="knowledge">
+            <h2>Knowledge</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <h5>Languages</h5>
+                    <div class="sidebar list-group">
+                        <a class="list-group-item" data-target="#pythonContent">Python</a>
+                        <a class="list-group-item" data-target="#javascriptContent">JavaScript</a>
+                        <a class="list-group-item" data-target="#javaContent">Java</a>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div>
+                        <div id="pythonContent" class="content">
+                            <h5>Python</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <h6>Data analysis and visualization</h6>
+                                </div>
+                                <div class="col">
+                                    <h6>Web development</h6>
+                                </div>
+                                <div class="col">
+                                    <h6>Testing</h6>
+                                </div>
+                                <div class="col">
+                                    <h6>CLI Development</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Pandas</li>
+                                        <li class="list-group-item">Numpy</li>
+                                        <li class="list-group-item">OpenPyXL</li>
+                                        <li class="list-group-item">Plotly</li>
+                                        <li class="list-group-item">MatPlotLib</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Django</li>
+                                        <li class="list-group-item">Django Rest Framework</li>
+                                        <li class="list-group-item">Flask</li>
+                                        <li class="list-group-item">Requests</li>
+                                        <li class="list-group-item">Plotly Dash</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Pytest</li>
+                                        <li class="list-group-item">Responses</li>
+                                        <li class="list-group-item">Mock</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Typer</li>
+                                        <li class="list-group-item">Argparse</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="javascriptContent" class="content d-none">
+                            <h5>Web and Javascript</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <h6>Frameworks and CSS</h6>
+                                </div>
+                                <div class="col">
+                                    <h6>Javascript Libraries</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">React</li>
+                                        <li class="list-group-item">Bootstrap</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Axios</li>
+                                        <li class="list-group-item">Leaflet</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="javaContent" class="content d-none">
+                            <h5>Java</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <h6>General Knowledge</h6>
+                                </div>
+                                <div class="col">
+                                    <h6>Spring</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Multiple college-level classes on Java development</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Spring Boot</li>
+                                        <li class="list-group-item">Spring Web</li>
+                                        <li class="list-group-item">Spring Eureka</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <!--Section: Projects-->
+        <section class="container" id="projects">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4 gx-5 mb-4">
+                    <div class="bg-image hover-overlay shadow-2-strong" data-mdb-ripple-init
+                        data-mdb-ripple-color="light">
+                        <img src="trip_tracker_screenshot.png" class="img-fluid" />
+                        <a href="https://trips-frontend.onrender.com/">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-8 gx-5 mb-4">
+                    <h4><strong>Trip Tracker</strong></h4>
+                    <p class="text-muted">
+                        A website designed for friends to track thier outdoor trips. Includes collaboration and mapping features.
+                    </p>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <i class="fas fa-laptop fa-3x stack__icon"></i>
+                                    <h5 class="card-title mt-5 text-center">Frontend</h5>
+                                    <ul class="list-group list-group-light ps-1">
+                                        <li class="list-group-item">React</li>
+                                        <li class="list-group-item">Bootstrap MDB</li>
+                                        <li class="list-group-item">Axios</li>
+                                        <li class="list-group-item">Leaflet</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <i class="fas fa-server fa-3x stack__icon"></i>
+                                    <h5 class="card-title mt-5 text-center">Backend</h5>
+                                    <ul class="list-group list-group-light ps-1">
+                                        <li class="list-group-item">Python</li>
+                                        <li class="list-group-item">Django</li>
+                                        <li class="list-group-item">Django Rest Framework</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <i class="fas fa-database fa-3x stack__icon"></i>
+                                    <h5 class="card-title mt-5 text-center">Data</h5>
+                                    <ul class="list-group list-group-light ps-1">
+                                        <li class="list-group-item">PostgreSQL</li>
+                                        <li class="list-group-item">Deployed using onrender</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!--Section: Content-->
+    </main>
+    <!--Main layout-->
+    <footer class='text-center p-4 bg-body-tertiary'>
+        Thank you for viewing my portfolio.
+      <br />
+        <a class='text-reset fw-bold' href='mailto:davidslondon1@gmail.com'>
+          Email
+        </a>
+        <span> | </span>
+        <a class='text-reset fw-bold' href='https://www.linkedin.com/in/david-london-65590615a'>
+          Linkedin
+        </a>
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</body>
+
+</html>

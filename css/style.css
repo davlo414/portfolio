@@ -1,0 +1,20 @@
+.stack__icon {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.sidebar {
+    top: 0;
+    left: 0;
+    padding-bottom: 20px;
+}
+.list-group-item {
+    cursor: pointer;
+}
+
+.navbar-shrink {
+    background-color: gray;
+    transition: background-color 1s ease;
+}
