@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>Portfolio</title>
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -21,9 +21,9 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;" id="mainNav">
         <div class="container-fluid">
             <!-- Navbar brand -->
-            <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+            <!-- <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
                 <strong>MDB</strong>
-            </a>
+            </a> -->
             <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
                 aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -34,20 +34,21 @@
                         <a class="nav-link" aria-current="page" href="#intro">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" data-mdb-ripple-init
-                        href="#knowledge">Knowledge</a>
+                        <a class="nav-link" data-mdb-ripple-init href="#experience">Experience</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" data-mdb-ripple-init
-                        href="#projects">Projects</a>
+                        <a class="nav-link" data-mdb-ripple-init href="#projects">Projects</a>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav d-flex flex-row">
                     <!-- Icons -->
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://www.linkedin.com/in/david-london-65590615a"
-                            rel="nofollow" target="_blank">
+                    <li class="nav-item d-flex me-3 me-lg-0">
+                        <a class="nav-link" href="https://github.com/davlo414/" rel="nofollow" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/david-london-65590615a" rel="nofollow"
+                            target="_blank">
                             <i class="fab fa-linkedin"></i>
                         </a>
                     </li>
@@ -92,11 +93,9 @@
                     <div class="text-white" data-mdb-theme="dark">
                         <h1 class="mb-3">Coding Portfolio
                         </h1>
-                        <h5 class="mb-4">A portfolio to show my software knowledge and projects</h5>
-                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init
-                            href="#knowledge">Knowledge</a>
-                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init
-                            href="#projects">Projects</a>
+                        <h5 class="mb-4">Thank you for visiting my website</h5>
+                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="#experience">Experience</a>
+                        <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="#projects">Projects</a>
                     </div>
                 </div>
             </div>
@@ -106,10 +105,10 @@
     <!--Main Navigation-->
 
     <!--Main layout-->
-    <main class="mt-5">
-        <!--Section: Knowledge-->
-        <section class="container" id="knowledge">
-            <h2>Knowledge</h2>
+    <main id="experience">
+        <!--Section: Kxperience-->
+        <section class="container pt-nav">
+            <h2>Experience</h2>
             <div class="row">
                 <div class="col-md-2">
                     <h5>Languages</h5>
@@ -200,7 +199,7 @@
                             <h5>Java</h5>
                             <div class="row">
                                 <div class="col">
-                                    <h6>General Knowledge</h6>
+                                    <h6>General Experience</h6>
                                 </div>
                                 <div class="col">
                                     <h6>Spring</h6>
@@ -209,7 +208,8 @@
                             <div class="row">
                                 <div class="col">
                                     <ul class="list-group">
-                                        <li class="list-group-item">Multiple college-level classes on Java development</li>
+                                        <li class="list-group-item">Multiple college-level classes on Java development
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="col">
@@ -225,10 +225,66 @@
                 </div>
             </div>
         </section>
-        <br>
+        <br />
         <!--Section: Projects-->
-        <section class="container" id="projects">
+        <section class="container pt-nav" id="projects">
             <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4 gx-5 mb-4">
+                    <div class="bg-image hover-overlay shadow-2-strong" data-mdb-ripple-init
+                        data-mdb-ripple-color="light">
+                        <img src="TripPlannerScreenshot.png" class="img-fluid" />
+                        <a href="https://davlo414.github.io/CyclingTourPlanner/">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-8 gx-5 mb-4">
+                    <h4><strong>Cycling Tour Planner</strong></h4>
+                    <p class="text-muted">
+                        A website designed to build a international cycling tour.
+                    </p>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <i class="fas fa-laptop fa-3x stack__icon"></i>
+                                    <h5 class="card-title mt-5 text-center">Frontend</h5>
+                                    <ul class="list-group list-group-light ps-1">
+                                        <li class="list-group-item">React</li>
+                                        <li class="list-group-item">Material UI</li>
+                                        <li class="list-group-item">MabLibre</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <i class="fas fa-server fa-3x stack__icon"></i>
+                                    <h5 class="card-title mt-5 text-center">Backend</h5>
+                                    <ul class="list-group list-group-light ps-1">
+                                        <li class="list-group-item">Python</li>
+                                        <li class="list-group-item">Django</li>
+                                        <li class="list-group-item">Django Rest Framework</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <i class="fas fa-database fa-3x stack__icon"></i>
+                                    <h5 class="card-title mt-5 text-center">Data</h5>
+                                    <ul class="list-group list-group-light ps-1">
+                                        <li class="list-group-item">PostgreSQL</li>
+                                        <li class="list-group-item">Deployed using onrender</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
             <div class="row">
                 <div class="col-md-4 gx-5 mb-4">
                     <div class="bg-image hover-overlay shadow-2-strong" data-mdb-ripple-init
@@ -239,11 +295,12 @@
                         </a>
                     </div>
                 </div>
-
+                <br>
                 <div class="col-md-8 gx-5 mb-4">
                     <h4><strong>Trip Tracker</strong></h4>
                     <p class="text-muted">
-                        A website designed for friends to track thier outdoor trips. Includes collaboration and mapping features.
+                        A website designed for friends to track thier outdoor trips. Includes collaboration and mapping
+                        features.
                     </p>
                     <br>
                     <div class="container">
@@ -286,18 +343,22 @@
                 </div>
             </div>
         </section>
-            <!--Section: Content-->
+        <!--Section: Content-->
     </main>
     <!--Main layout-->
     <footer class='text-center p-4 bg-body-tertiary'>
         Thank you for viewing my portfolio.
-      <br />
+        <br />
         <a class='text-reset fw-bold' href='mailto:davidslondon1@gmail.com'>
-          Email
+            Email
+        </a>
+        <span> | </span>
+        <a class='text-reset fw-bold' href='https://github.com/davlo414/'>
+            Github
         </a>
         <span> | </span>
         <a class='text-reset fw-bold' href='https://www.linkedin.com/in/david-london-65590615a'>
-          Linkedin
+            Linkedin
         </a>
     </footer>
 
@@ -305,7 +366,7 @@
     <script type="text/javascript" src="mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript" src="js/script.js"></script>
-    
+
 </body>
 
 </html>

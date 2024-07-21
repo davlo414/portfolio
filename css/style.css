@@ -18,3 +18,7 @@
     background-color: gray;
     transition: background-color 1s ease;
 }
+
+.pt-nav {
+    padding-top:5rem !important
+}
